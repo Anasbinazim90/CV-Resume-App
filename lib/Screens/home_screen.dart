@@ -26,8 +26,8 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(
               height: 40,
             ),
-            Padding(
-              padding: const EdgeInsets.only(
+            const Padding(
+              padding: EdgeInsets.only(
                 left: 40,
               ),
               child: Text(
@@ -38,11 +38,14 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Color(0xFF006874)),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 50),
+            const Padding(
+              padding: EdgeInsets.only(left: 50),
               child: Text(
                 'Flutter Developer',
-                style: TextStyle(color: Color(0xFF006874), fontSize: 15),
+                style: TextStyle(
+                    color: Color(0xFF006874),
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold),
               ),
             ),
 
@@ -87,14 +90,14 @@ class _HomeScreenState extends State<HomeScreen> {
                             children: [
                               // PHONE
 
-                              Icon(
+                              const Icon(
                                 Icons.phone,
                                 color: Colors.white,
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 width: 5,
                               ),
-                              Text(
+                              const Text(
                                 '0340-2746217',
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
@@ -104,17 +107,17 @@ class _HomeScreenState extends State<HomeScreen> {
 
                               // E-MAIL
 
-                              SizedBox(
+                              const SizedBox(
                                 width: 40,
                               ),
-                              Icon(
+                              const Icon(
                                 Icons.email,
                                 color: Colors.white,
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 width: 5,
                               ),
-                              Text(
+                              const Text(
                                 'anasbinazim90@gmail.com',
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
@@ -123,7 +126,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               )
                             ],
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 15,
                           ),
 
@@ -133,14 +136,14 @@ class _HomeScreenState extends State<HomeScreen> {
                             children: [
                               // ADDRESS
 
-                              Icon(
+                              const Icon(
                                 Icons.home,
                                 color: Colors.white,
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 width: 5,
                               ),
-                              Text(
+                              const Text(
                                 'A-291 Block 12 Federal B.Area Gulberg Karachi',
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
@@ -149,7 +152,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                             ],
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 15,
                           ),
                           Row(),
@@ -159,7 +162,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                     height: 280,
                     width: 400,
-                    color: Color(0xFF006874),
+                    color: const Color(0xFF006874),
                   ),
                 ),
 
@@ -172,7 +175,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 )
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 25,
             ),
 
@@ -183,7 +186,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
+                  const Text(
                     'Education',
                     style: TextStyle(
                       color: Color(0xFF006874),
@@ -191,21 +194,22 @@ class _HomeScreenState extends State<HomeScreen> {
                       fontSize: 25,
                     ),
                   ),
-                  Divider(
+                  const Divider(
                     color: Colors.grey,
                     thickness: 1,
                   ),
                   Row(
                     children: [
-                      Icon(
+                      const Icon(
                         Icons.circle_sharp,
                         size: 18,
                         color: Color(0xFF006874),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 5,
                       ),
-                      Text('Bachelors of Computer & Information Technology',
+                      const Text(
+                          'Bachelors of Computer & Information Technology',
                           style: TextStyle(
                             color: Color(0xFF006874),
                             fontWeight: FontWeight.bold,
@@ -213,27 +217,27 @@ class _HomeScreenState extends State<HomeScreen> {
                           )),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 5,
                   ),
-                  Text(
+                  const Text(
                     'NED University of Engineering & Technology (2020-2024)',
                     style: TextStyle(color: Color(0xFF006874)),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 15,
                   ),
                   Row(
                     children: [
-                      Icon(
+                      const Icon(
                         Icons.circle_sharp,
                         size: 18,
                         color: Color(0xFF006874),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 5,
                       ),
-                      Text('Intermediate',
+                      const Text('Intermediate',
                           style: TextStyle(
                             color: Color(0xFF006874),
                             fontWeight: FontWeight.bold,
@@ -241,20 +245,20 @@ class _HomeScreenState extends State<HomeScreen> {
                           )),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 5,
                   ),
-                  Text(
+                  const Text(
                     'Adamjee Government Science College (2018-2020)',
                     style: TextStyle(color: Color(0xFF006874)),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
 
                   // PROJECTS
 
-                  Text(
+                  const Text(
                     'Projects',
                     style: TextStyle(
                       color: Color(0xFF006874),
@@ -262,24 +266,24 @@ class _HomeScreenState extends State<HomeScreen> {
                       fontSize: 25,
                     ),
                   ),
-                  Divider(
+                  const Divider(
                     color: Colors.grey,
                     thickness: 1,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 15,
                   ),
                   Row(
                     children: [
-                      Icon(
+                      const Icon(
                         Icons.circle_sharp,
                         size: 18,
                         color: Color(0xFF006874),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 5,
                       ),
-                      Text('COVID-19 Tracker Application',
+                      const Text('COVID-19 Tracker Application',
                           style: TextStyle(
                             color: Color(0xFF006874),
                             fontWeight: FontWeight.bold,
@@ -287,17 +291,17 @@ class _HomeScreenState extends State<HomeScreen> {
                           )),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 5,
                   ),
-                  Text(
+                  const Text(
                     'An Application which shows you the number of cases infected, recovered, deaths, active cases and many more information all around the world, by using FLUTTER UI and REST API integration.',
                     style: TextStyle(color: Color(0xFF006874)),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 5,
                   ),
-                  InkWell(
+                  const InkWell(
                       child: Text(
                     'Click here',
                     style: TextStyle(
@@ -305,20 +309,20 @@ class _HomeScreenState extends State<HomeScreen> {
                       fontSize: 15,
                     ),
                   )),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
                   Row(
                     children: [
-                      Icon(
+                      const Icon(
                         Icons.circle_sharp,
                         size: 18,
                         color: Color(0xFF006874),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 5,
                       ),
-                      Text('Online Courses Platform Application',
+                      const Text('Online Courses Platform Application',
                           style: TextStyle(
                             color: Color(0xFF006874),
                             fontWeight: FontWeight.bold,
@@ -326,17 +330,17 @@ class _HomeScreenState extends State<HomeScreen> {
                           )),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 5,
                   ),
-                  Text(
+                  const Text(
                     'A flutter UI in which you will be able to select different type of courses and watch your favourite playlist.',
                     style: TextStyle(color: Color(0xFF006874)),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 5,
                   ),
-                  InkWell(
+                  const InkWell(
                       child: Text(
                     'Click here',
                     style: TextStyle(
@@ -344,20 +348,20 @@ class _HomeScreenState extends State<HomeScreen> {
                       fontSize: 15,
                     ),
                   )),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
                   Row(
                     children: [
-                      Icon(
+                      const Icon(
                         Icons.circle_sharp,
                         size: 18,
                         color: Color(0xFF006874),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 5,
                       ),
-                      Text('WhatsApp UI',
+                      const Text('WhatsApp UI',
                           style: TextStyle(
                             color: Color(0xFF006874),
                             fontWeight: FontWeight.bold,
@@ -365,17 +369,17 @@ class _HomeScreenState extends State<HomeScreen> {
                           )),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 5,
                   ),
-                  Text(
+                  const Text(
                     'A Flutter whatsapp UI having unlimited chats option, status screen, calls, and your profile options.',
                     style: TextStyle(color: Color(0xFF006874)),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 5,
                   ),
-                  InkWell(
+                  const InkWell(
                       child: Text(
                     'Click here',
                     style: TextStyle(
@@ -383,6 +387,142 @@ class _HomeScreenState extends State<HomeScreen> {
                       fontSize: 15,
                     ),
                   )),
+
+                  // Skills
+
+                  const SizedBox(
+                    height: 20,
+                  ),
+
+                  const Text(
+                    'Skills',
+                    style: TextStyle(
+                      color: Color(0xFF006874),
+                      fontWeight: FontWeight.bold,
+                      fontSize: 25,
+                    ),
+                  ),
+
+                  const Divider(
+                    color: Colors.grey,
+                    thickness: 1,
+                  ),
+                  const SizedBox(
+                    height: 15,
+                  ),
+
+                  Row(
+                    children: [
+                      const Text('Flutter',
+                          style: TextStyle(
+                            color: Color(0xFF006874),
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          )),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      const Text('Dart',
+                          style: TextStyle(
+                            color: Color(0xFF006874),
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          )),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      const Text('Database',
+                          style: TextStyle(
+                            color: Color(0xFF006874),
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          )),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      const Text('Python',
+                          style: TextStyle(
+                            color: Color(0xFF006874),
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          )),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                      const Icon(
+                        Icons.star,
+                        color: Color(0xFFE69E00),
+                      ),
+                    ],
+                  ),
                 ],
               ),
             ),
