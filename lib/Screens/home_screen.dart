@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text('Resume')),
+        title: const Center(child: Text('RESUME')),
       ),
       body: SingleChildScrollView(
         child: Column(
